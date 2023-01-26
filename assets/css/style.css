@@ -13,7 +13,6 @@ body {
   body {
     display: grid;
     grid-template-columns: auto 1fr;
-    /* margin: 0 200px; */
     max-width: 1440px;
   }
 }
@@ -94,15 +93,13 @@ body {
   }
 }
 
-
 /* Menu Lateral - Hamburger */
-
 
 .menu-lateral {
   display: flex;
   flex-direction: column;
   background-color: #15191C;
-  width: 75vw;
+  width: 70vw;
   height: 100vh;
   position: absolute;
   left: -100vw;
@@ -213,10 +210,6 @@ body {
   .titulo-secao {
     grid-column: span 4;
   }
-
-  /* .titulo-pagina {
-    display: none;
-  } */
 }
 
 .cartao {
