@@ -10,6 +10,12 @@ clickFora.addEventListener('click', () => {
   menu.classList.remove('menu-lateral--ativo');
 });
 
+document.addEventListener('scroll', () => {
+  if (window.scrollY > 250) {
+    menu.classList.remove('menu-lateral--ativo')
+  }
+})
+
 // Voltar topo
 
 const voltarTopo = document.querySelector(".btn");
